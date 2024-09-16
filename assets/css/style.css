@@ -1,0 +1,85 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #151619;
+  font-family: "Roboto Mono", monospace;
+}
+/* a:link {
+  color: #ffffff;
+}
+a:visited {
+  color: #faf9f6;
+}
+a:hover {
+  color: black;
+} */
+a {
+  color: #00e;
+  text-decoration: none;
+}
+a:visited {
+  color: #551a8b;
+  text-decoration: none;
+}
+a:hover {
+  color: #06e;
+  text-decoration: none;
+}
+a:focus {
+  outline: thin dotted;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  outline: 0;
+  text-decoration: none;
+}
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
+}
+@media only screen and (min-width: 320px) {
+  big {
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 600px) {
+  big {
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .typewriter {
+    font-size: 2em;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    animation: blink-caret 0.75s step-end infinite;
+  }
+
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+}
+.navbar-backdrop {
+  background: rgba(0, 0, 0, 0.3);
+}
