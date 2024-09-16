@@ -1,4 +1,4 @@
-const texts = ["Hola", "Ciao", "Привет", "你好"];
+const texts = ["Hola", "Ciao", "Привет", "你好", "أهلاً", "Hai"];
 let currentTextIndex = 0;
 let currentCharIndex = 0;
 let isDeleting = false;
